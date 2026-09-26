@@ -10,6 +10,20 @@ body {
   color: #333;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+
 .navbar {
   display: flex;                
   justify-content: space-between; 
