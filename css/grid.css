@@ -10,3 +10,46 @@ body {
   color: #2e1065;            
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b0764; 
+  padding: 15px 40px;
+  box-shadow: 0 4px 12px rgba(59, 7, 100, 0.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fef08a;             
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #f3e8ff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fef08a;
+}
+
