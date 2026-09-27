@@ -6,6 +6,19 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #FF00AE; 
-  color: #C1FF1A;            
+  background: radial-gradient(circle at 50% -20%, #3a0ca3, #05010d);
+  background-attachment: fixed;
+  color: #e2d5f8; 
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(5, 1, 13, 0.6);
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px);
+  padding: 18px 40px;
+  border-bottom: 1px solid #7209b7;
+  box-shadow: 0 4px 30px rgba(114, 9, 183, 0.4);
+
