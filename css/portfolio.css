@@ -194,3 +194,12 @@ body {
   border-bottom: none;
 }
 
+.footer {
+  background-color: #1a0207;
+  border-top: 1px solid #d4af37;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #e6c663;
+  margin-top: auto; 
+}
