@@ -150,3 +150,47 @@ body {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
 
+.sidebar-area {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profile-card,
+.info-card {
+  background-color: #24030a;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.sidebar-area h3 {
+  font-family: 'Playfair Display', serif;
+  color: #e6c663;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.sidebar-area p {
+  font-size: 0.9rem;
+  color: #c9b097;
+  line-height: 1.5;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 0.88rem;
+  color: #f4e8d1;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.skills-list li:last-child {
+  border-bottom: none;
+}
+
