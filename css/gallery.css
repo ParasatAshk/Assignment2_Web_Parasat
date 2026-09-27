@@ -21,4 +21,50 @@ body {
   padding: 18px 40px;
   border-bottom: 1px solid #7209b7;
   box-shadow: 0 4px 30px rgba(114, 9, 183, 0.4);
+}
+
+logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #00f0ff; /* Циановый (голубой неон) */
+  font-family: 'Syne', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.8), 0 0 20px rgba(0, 240, 255, 0.5); /* Неоновое свечение */
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 0 6px #00f0ff);
+}
+
+nav-links {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #e2d5f8;
+  text-decoration: none;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f72585; 
+  text-shadow: 0 0 10px rgba(247, 37, 133, 0.8);
+  background-color: rgba(247, 37, 133, 0.1);
+}
 
