@@ -123,3 +123,30 @@ body {
   line-height: 1.6;
   margin-bottom: 25px;
 }
+
+.btn-gold {
+  align-self: flex-start;     
+  display: inline-block;
+  background-color: #d4af37;  
+  color: #24030a;             
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #ffffff;
+  color: #800f2f;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.6);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
